@@ -1,6 +1,6 @@
 <link href="images/style.css" rel="stylesheet"></link>
 
-# Starting_MrBean <img src="images/logo.png" width="120px" align="right"/>
+# Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
 Course
 
 <br><br>
