@@ -2,6 +2,9 @@
 
 # Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
 
+
+<img src="images/people.png" class="center" />
+
 ## Installation
 
 You can install MrBean:
