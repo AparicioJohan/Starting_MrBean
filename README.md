@@ -3,7 +3,7 @@
 # Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
 
 
-<img src="images/people.png" class="center" />
+<img src="images/people.PNG" class="center" />
 
 ## Installation
 
