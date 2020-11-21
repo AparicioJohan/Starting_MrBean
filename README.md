@@ -5,5 +5,5 @@ Course
 
 <br><br>
 
-<img src="images/Alianza_logo_ancho_espanol.png" class="center"  width="500" height="600" />
+<img src="images/Alianza_logo_ancho_espanol.png" class="center" />
 
