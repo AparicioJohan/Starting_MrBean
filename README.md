@@ -25,7 +25,7 @@ run_app()
 ```
 
 
-<br><br>
+<br>
 
 <img src="images/Alianza_logo_ancho_espanol.png" class="center" />
 
