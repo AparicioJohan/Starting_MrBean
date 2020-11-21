@@ -2,9 +2,6 @@
 
 # Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
 
-
-<img src="images/people.PNG" class="center" />
-
 ## Installation
 
 You can install MrBean:
@@ -26,6 +23,8 @@ remotes::install_local(  file )
 library(MrBean)
 run_app()
 ```
+
+<img src="images/people.PNG" class="center" />
 
 <img src="images/Alianza_logo_ancho_espanol.png" class="center" />
 
