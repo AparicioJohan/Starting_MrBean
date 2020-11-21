@@ -25,5 +25,6 @@ run_app()
 ```
 
 <img src="images/people.PNG" class="center" width="300px" align="right"/>
-<img src="images/Alianza_logo_ancho_espanol.png" class="center" align="left" width="400px"/>
+
+<img src="images/Alianza_logo_ancho_espanol.png" class="center" align="right" width="400px"/>
 
