@@ -24,7 +24,7 @@ library(MrBean)
 run_app()
 ```
 
-<img src="images/people.PNG" class="center" width="60%" align="right"/>
+<img src="images/people.PNG" class="center" width="35%" align="right"/>
 <br>
-<img src="images/Alianza_logo_ancho_espanol.png" class="center" width="35%"/>
+<img src="images/Alianza_logo_ancho_espanol.png" class="center" width="60%"/>
 
