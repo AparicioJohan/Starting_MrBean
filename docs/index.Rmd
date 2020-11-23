@@ -10,6 +10,12 @@ output:
 
 # Starting with MrBean
 
+<div class="row">
+<div class="card">
+<a href="#" target="_blank"><img src="images/mrb.png"  class="center" width="60%" ></a>
+</div>
+</div>
+
 ## Installation
 
 You can install MrBean:
@@ -32,9 +38,9 @@ library(MrBean)
 run_app()
 ```
 
-<img src="images/people.PNG" class="center" width="35%" align="right"/>
+<img src="images/people.PNG" width="35%" align="right"/>
 
-<img src="images/Alianza_logo_ancho_espanol.png" class="center" width="60%"/>
+<img src="images/Alianza_logo_ancho_espanol.png" width="60%"/>
 
 
 
