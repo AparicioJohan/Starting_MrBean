@@ -2,6 +2,8 @@
 
 # Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
 
+https://apariciojohan.github.io/Starting_MrBean/
+
 ## Installation
 
 You can install MrBean:
