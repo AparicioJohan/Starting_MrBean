@@ -9,7 +9,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Johan Aparicio &amp; Daniel Ariza-Suarez at CIAT, 24/11/2020" />
 
 
 <title>Análisis de datos utilizando MrBean</title>
@@ -309,32 +308,33 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Análisis de datos utilizando MrBean</h1>
-<h4 class="author"><a href="https://github.com/AparicioJohan">Johan Aparicio</a> &amp; <a href="https://github.com/darizasu">Daniel Ariza-Suarez</a> at <a href="https://ciat.cgiar.org/?lang=es">CIAT</a>, 24/11/2020</h4>
 
 </div>
 
 
-<hr />
-<p><link href="images/style.css" rel="stylesheet"></link></p>
-<div id="starting-with-mrbean" class="section level1">
-<h1>Starting with MrBean <img src="images/logo.png" width="120px" align="right"/></h1>
-<div id="installation" class="section level2">
-<h2>Installation</h2>
-<p>You can install MrBean:</p>
-<pre class="r"><code>devtools::install_github(&quot;AparicioJohan/MrBeanApp&quot;)       
-remotes::install_github(&quot;AparicioJohan/MrBeanApp&quot;)   </code></pre>
-<p>or you can go to <a href="https://mrpackages.netlify.app/mrbean.html" class="uri">https://mrpackages.netlify.app/mrbean.html</a> and donwload it from there.</p>
-<pre class="r"><code>file &lt;- rstudioapi::selectFile()
-remotes::install_local(  file )</code></pre>
-</div>
-<div id="example" class="section level2">
-<h2>Example</h2>
-<pre class="r"><code>library(MrBean)
-run_app()</code></pre>
-<p><img src="images/people.PNG" class="center" width="35%" align="right"/></p>
-<p><img src="images/Alianza_logo_ancho_espanol.png" class="center" width="60%"/></p>
+<p>A continuación encontrará datos de ejemplo que servirán para introducir algunos diseños experimentales en agricultura. Los datos fueron tomados de materiales de cursos del Profesor <a href="https://www.uni-hohenheim.de/organisation?tx_base_lsfcontentadmin%5BlsfPerson%5D=6257&amp;L=1">Dr. Hans-Peter Piepho</a>.</p>
 <p><br></p>
+<div id="diseño-completamente-al-azar-dca" class="section level3">
+<h3>Diseño completamente al azar (DCA)</h3>
+<p><a href="data/CRD.csv" download="CRD"> Download CRD </a></p>
 </div>
+<div id="diseño-en-bloques-completos-al-azar-dbca" class="section level3">
+<h3>Diseño en bloques completos al azar (DBCA)</h3>
+<p><a href="data/RCBD.csv" download="RCBD"> Download RCBD </a></p>
+</div>
+<div id="diseño-en-bloques-aumentados" class="section level3">
+<h3>Diseño en bloques aumentados</h3>
+<p><a href="data/Augmented.csv" download="Augmented"> Download Augmented_1 </a></p>
+<p><a href="data/Augmented_2.csv" download="Augmented2"> Download Augmented_2 </a></p>
+</div>
+<div id="diseño-alfa-lattice" class="section level3">
+<h3>Diseño alfa-lattice</h3>
+<p><a href="data/Alpha.csv" download="Alpha"> Download Alpha-lattice </a></p>
+</div>
+<div id="diseño-fila-columna-espacial" class="section level3">
+<h3>Diseño fila-columna (Espacial)</h3>
+<p><a href="data/row_col.csv" download="row_col"> Download Row-Col </a></p>
+<p><br></p>
 </div>
 
 <footer role="contentinfo" id="site-footer">

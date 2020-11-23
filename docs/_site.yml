@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Instalar o Actualizar R"
       href: Install_update_R.html
+    - text: "Datos Ejemplo"
+      href: Datos.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/AparicioJohan
