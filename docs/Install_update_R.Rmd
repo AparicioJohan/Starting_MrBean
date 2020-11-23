@@ -55,7 +55,7 @@ Una vez se haya completado la instalación, por favor continúe con la sección 
 Este taller podrá ser llevado a cabo sin contratiempos si todos los participantes utilizan la misma versión de R.
 Por favor, actualícela si es necesario.
 
-### Verficar la versión instalada de R
+### Verificar la versión instalada de R
 
 Abra la consola de R y digite el siguiente comando para imprimir la versión de R que está utilizando:
 
