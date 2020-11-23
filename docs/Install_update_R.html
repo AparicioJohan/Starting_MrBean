@@ -495,6 +495,7 @@ CIAT<br><h4 class="date">11/24/20</h4>
 <li>Haga click en el enlace “R-4.0.3.pkg”</li>
 <li>Cuando la descarga del archivo finalice, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón “Next” de cada una de las ventanas de diálogo para completar la instalación.</li>
 </ol>
+<p>Una vez se haya completado la instalación, por favor continúe con la sección <a href="#ya-tengo-instalado-r">“Ya tengo instalado R”</a>.</p>
 </div>
 </div>
 <div id="ya-tengo-instalado-r" class="section level2">
@@ -507,8 +508,8 @@ CIAT<br><h4 class="date">11/24/20</h4>
 <pre><code>## [1] &quot;R version 4.0.2 (2020-06-22)&quot;</code></pre>
 <p>Tengo la versión 4.0.3 instalada en mi sistema ?</p>
 <ul>
-<li>No. Siga las instrucciones para <a href="#actualizando-r">actualizar R</a></li>
-<li>Sí. Felicitaciones. Ahora puede proceder con la instalación del paquete <code>MrBean</code>.</li>
+<li>No - Siga las instrucciones para <a href="#actualizando-r">actualizar R</a></li>
+<li>Sí - Felicitaciones. Ahora puede proceder con la instalación de las herramientas <a href="#instalando-rtools">Rtools</a> (únicamente si está utilizando un computador con Windows) y posteriormente con el paquete <a href="https://apariciojohan.github.io/Starting_MrBean/"><code>MrBean</code></a>.</li>
 </ul>
 </div>
 <div id="actualizando-r" class="section level3">
@@ -519,9 +520,33 @@ CIAT<br><h4 class="date">11/24/20</h4>
 <p>Para actualizar R en una computadora Mac, puede simplemente descargar e instalar la última versión de R siguiendo los pasos de la sección <a href="#no-tengo-instalado-r">“No tengo instalado R”</a>.</p>
 </div>
 </div>
+<div id="instalando-rtools" class="section level2">
+<h2>Instalando Rtools</h2>
+<p>Rtools es un conjunto de herramientas que le permite al usuario compilar e instalar paquetes utilizando el código fuente.</p>
+<blockquote>
+<p>Estas herramientas <strong>son útiles únicamente si usted está utilizando una computadora con Windows</strong>. De lo contrario, puede proceder directamente con la instalación del paquete <a href="https://apariciojohan.github.io/Starting_MrBean/"><code>MrBean</code></a></p>
+</blockquote>
+<ol style="list-style-type: decimal">
+<li>Para usar <code>rtools40</code>, descargue el instalador del CRAN: <a href="https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe">rtools40-x86_64.exe</a>.</li>
+<li>Cuando la descarga del archivo finalice, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón “Next” de cada una de las ventanas de diálogo para completar la instalación.</li>
+<li>Cuando la instalación haya finalizado, abra la consola de R, copie, pegue y ejecute el siguiente comando:</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">writeLines</span>(<span class="st">&#39;PATH=&quot;${RTOOLS40_HOME}</span><span class="ch">\\</span><span class="st">usr</span><span class="ch">\\</span><span class="st">bin;${PATH}&quot;&#39;</span>, <span class="dt">con =</span> <span class="st">&quot;~/.Renviron&quot;</span>)</a></code></pre></div>
+<ol start="4" style="list-style-type: decimal">
+<li>Ahora, es necesario reiniciar la consola de R. Posteriormente, podrá verificar si el programa <code>make</code> está disponible en su sistema. Para ello, digite el siguiente comando en la consola de R:</li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">Sys.which</span>(<span class="st">&quot;make&quot;</span>)</a></code></pre></div>
+<pre><code>##                                                 make 
+## &quot;D:\\OneDrive - CGIAR\\rtools40\\usr\\bin\\make.exe&quot;</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Si puede ver la ubicación del programa <code>make</code> en su sistema, esto indica que la instalación de <code>Rtools</code> ha finalizado exitosamente. Puede intentar instalar algún paquete desde el código fuente:</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">install.packages</span>(<span class="st">&quot;jsonlite&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;source&quot;</span>)</a></code></pre></div>
+<p>Si el paquete <code>jsonlite</code> fue instalado correctamente, habrá finalizado el proceso de instalación de <code>Rtools</code>. Ahora puede proceder con la instalación del paquete <a href="https://apariciojohan.github.io/Starting_MrBean/"><code>MrBean</code></a>.</p>
+</div>
 </div>
 <div id="al-final-de-este-tutorial-usted-debería-estar-listo-para-proceder-con-la-instalación-del-paquete-mrbean." class="section level1">
-<h1>Al final de este tutorial, usted debería estar listo para proceder con la instalación del paquete <code>MrBean</code>.</h1>
+<h1>Al final de este tutorial, usted debería estar listo para proceder con la instalación del paquete <a href="https://apariciojohan.github.io/Starting_MrBean/"><code>MrBean</code></a>.</h1>
 <p><br></p>
 </div>
 
