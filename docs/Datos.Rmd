@@ -6,7 +6,7 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 
 <br>
 
-### Diseño completamente al azar (DCA)
+### 1. Diseño completamente al azar (DCA)
 
 <div class="row">
 <div class="card">
@@ -16,7 +16,7 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 <a href="data/CRD.csv" download="CRD"> Download CRD </a>
 
 
-### Diseño en bloques completos al azar (DBCA)
+### 2. Diseño en bloques completos al azar (DBCA)
 <div class="row">
 <div class="card">
 <a href="#" target="_blank"><img src="images/DBCA.png"  class="center" width="40%" ></a>
@@ -24,7 +24,7 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 </div>
 <a href="data/RCBD.csv" download="RCBD"> Download RCBD </a>
 
-### Diseño en bloques aumentados
+### 3. Diseño en bloques aumentados
 <div class="row">
 <div class="card">
 <a href="#" target="_blank"><img src="images/Augmented.png"  class="center" width="50%" ></a>
@@ -34,7 +34,7 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 
 <a href="data/Augmented_2.csv" download="Augmented2"> Download Augmented_2 </a>
 
-### Diseño alfa-lattice
+### 4. Diseño alfa-lattice
 <div class="row">
 <div class="card">
 <a href="#" target="_blank"><img src="images/alpha.png"  class="center" width="80%" ></a>
@@ -42,7 +42,7 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 </div>
 <a href="data/Alpha.csv" download="Alpha"> Download Alpha-lattice </a>
 
-### Diseño fila-columna (Espacial)
+### 5. Diseño fila-columna (Espacial)
 <div class="row">
 <div class="card">
 <a href="#" target="_blank"><img src="images/row_col.png"  class="center" width="60%" ></a>
