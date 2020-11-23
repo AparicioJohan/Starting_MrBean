@@ -10,6 +10,7 @@ output:
     fig_height: 6
     fig_width: 12
     highlight: haddock
+    theme: cosmo
     toc: yes
     toc_float:
       collapsed: no
@@ -48,6 +49,8 @@ Mac:
 2. Haga click en el enlace "R-4.0.3.pkg"
 3. Cuando la descarga del archivo finalice, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón "Next" de cada una de las ventanas de diálogo para completar la instalación.
 
+Una vez se haya completado la instalación, por favor continúe con la sección ["Ya tengo instalado R"](#ya-tengo-instalado-r).
+
 ## Ya tengo instalado R
 
 Este taller podrá ser llevado a cabo sin contratiempos si todos los participantes utilizan la misma versión de R.
@@ -64,8 +67,8 @@ R.version.string
 
 Tengo la versión 4.0.3 instalada en mi sistema ?
 
-* No. Siga las instrucciones para [actualizar R](#actualizando-r)
-* Sí. Felicitaciones. Ahora puede proceder con la instalación del paquete `MrBean`.
+* No - Siga las instrucciones para [actualizar R](#actualizando-r)
+* Sí - Felicitaciones. Ahora puede proceder con la instalación de las herramientas [Rtools](#instalando-rtools) (únicamente si está utilizando un computador con Windows) y posteriormente con el paquete [`MrBean`](https://apariciojohan.github.io/Starting_MrBean/).
 
 ### Actualizando R
 
@@ -77,6 +80,34 @@ Mac:
 
 Para actualizar R en una computadora Mac, puede simplemente descargar e instalar la última versión de R siguiendo los pasos de la sección ["No tengo instalado R"](#no-tengo-instalado-r).
 
-# Al final de este tutorial, usted debería estar listo para proceder con la instalación del paquete `MrBean`.
+## Instalando Rtools
 
-<br>
+Rtools es un conjunto de herramientas que le permite al usuario compilar e instalar paquetes utilizando el código fuente.
+
+> Estas herramientas **son útiles únicamente si usted está utilizando una computadora con Windows**. De lo contrario, puede proceder directamente con la instalación del paquete [`MrBean`](https://apariciojohan.github.io/Starting_MrBean/)
+
+1. Para usar `rtools40`, descargue el instalador del CRAN: [rtools40-x86_64.exe](https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe).
+2. Cuando la descarga del archivo finalice, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón "Next" de cada una de las ventanas de diálogo para completar la instalación.
+3. Cuando la instalación haya finalizado, abra la consola de R, copie, pegue y ejecute el siguiente comando:
+
+```{r eval=FALSE}
+writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
+```
+
+4. Ahora, es necesario reiniciar la consola de R. Posteriormente, podrá verificar si el programa `make` está disponible en su sistema. Para ello, digite el siguiente comando en la consola de R:
+
+```{r}
+Sys.which("make")
+```
+
+5. Si puede ver la ubicación del programa `make` en su sistema, esto indica que la instalación de `Rtools` ha finalizado exitosamente. Puede intentar instalar algún paquete desde el código fuente:
+
+```{r eval=FALSE}
+install.packages("jsonlite", type = "source")
+```
+
+Si el paquete `jsonlite` fue instalado correctamente, habrá finalizado el proceso de instalación de `Rtools`.
+Ahora puede proceder con la instalación del paquete [`MrBean`](https://apariciojohan.github.io/Starting_MrBean/).
+
+# Al final de este tutorial, usted debería estar listo para proceder con la instalación del paquete [`MrBean`](https://apariciojohan.github.io/Starting_MrBean/).
+
