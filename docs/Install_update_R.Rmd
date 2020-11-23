@@ -10,7 +10,6 @@ output:
     fig_height: 6
     fig_width: 12
     highlight: haddock
-    theme: cosmo
     toc: yes
     toc_float:
       collapsed: no
