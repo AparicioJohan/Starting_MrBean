@@ -1,0 +1,82 @@
+---
+title: "Instalar o Actualizar R"
+author:
+  affiliation: CIAT
+  name: Daniel Ariza Suarez y Johan Aparicio
+date: "11/24/20"
+output:
+  html_document:
+    df_print: paged
+    fig_height: 6
+    fig_width: 12
+    highlight: haddock
+    toc: yes
+    toc_float:
+      collapsed: no
+      toc_depth: 2
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+```
+
+# Pasos previos para participar en el taller de análisis de datos utilizando `MrBean`
+Para participar en este taller, por favor utilice una computadora con R. Le recomendamos tener instalada la última versión de R (4.0.3 "Bunny-Wunnies Freak Out").
+
+Por favor, siga estas instrucciones para asegurarse de que usted tiene R instalado apropiadamente antes de iniciar el taller.
+
+Ya tengo instalado R ?
+
+* No - Siga las instrucciones para ["No tengo instalado R"](#no-tengo-instalado-r)
+* Sí - Siga las instrucciones para ["Ya tengo instalado R"](#ya-tengo-instalado-r)
+
+## No tengo instalado R
+
+### Instalando R
+
+Windows:
+
+1. Vaya a [https://cloud.r-project.org/bin/windows/base/](https://cloud.r-project.org/bin/windows/base/)
+2. Haga click en el enlace "Download R 4.0.3 for Windows"
+3. Cuando el archivo termine de descargar, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón "Next" de cada una de las ventanas de diálogo para completar la instalación.
+
+Mac:
+
+1. Vaya a [https://cloud.r-project.org/bin/macosx/](https://cloud.r-project.org/bin/macosx/)
+2. Haga click en el enlace "R-4.0.3.pkg"
+3. Cuando la descarga del archivo finalice, haga doble click en él para iniciar la instalación. Sólo basta con hacer click en el botón "Next" de cada una de las ventanas de diálogo para completar la instalación.
+
+## Ya tengo instalado R
+
+Este taller podrá ser llevado a cabo sin contratiempos si todos los participantes utilizan la misma versión de R.
+Por favor, actualícela si es necesario.
+
+### Verfificar la versión instalada de R
+
+Abra la consola de R y digite el siguiente comando para imprimir la versión de R que está utilizando:
+
+```{r}
+R.version.string
+```
+
+
+Tengo la versión 4.0.3 instalada en mi sistema ?
+
+* No. Siga las instrucciones para [actualizar R](#actualizando-r)
+* Sí. Felicitaciones. Ahora puede proceder con la instalación del paquete `MrBean`.
+
+### Actualizando R
+
+Windows:
+
+Para actualizar R en una computadora con Windows, puede utilizar el paquete `installr` (únicamente para Windows). Este tutorial de [installr](https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/) lo guiará paso a paso para poder hacerlo.
+
+Mac:
+
+Para actualizar R en una computadora Mac, puede simplemente descargar e instalar la última versión de R siguiendo los pasos de la sección ["No tengo instalado R"](#no-tengo-instalado-r).
+
+# Al final de este tutorial, usted debería estar listo para proceder con la instalación del paquete `MrBean`.
+
+<br>

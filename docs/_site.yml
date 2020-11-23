@@ -1,0 +1,16 @@
+name: "R Markdown Websites Tutorial"
+navbar:
+  title: "MrBean"
+  left:
+    - text: "Instalar o Actualizar R"
+      href: Install_update_R.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/AparicioJohan
+output_dir: "."
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: _footer.html
