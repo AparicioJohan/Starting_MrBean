@@ -8,9 +8,7 @@ output:
 
 ----
 
-<link href="images/style.css" rel="stylesheet"></link>
-
-# Starting with MrBean <img src="images/logo.png" width="120px" align="right"/>
+# Starting with MrBean
 
 ## Installation
 
