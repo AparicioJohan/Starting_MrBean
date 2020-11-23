@@ -19,7 +19,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+knitr::opts_chunk$set(echo = TRUE, cache = F)
 ```
 
 # Pasos previos para participar en el taller de análisis de datos utilizando `MrBean`
