@@ -27,4 +27,5 @@ output:
     toc_float: true
     css: 'style.css'
     include:
+      in_header: header.html
       after_body: _footer.html
