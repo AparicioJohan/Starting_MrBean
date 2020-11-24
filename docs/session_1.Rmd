@@ -1,0 +1,22 @@
+---
+title: "Sesion 1"
+author:
+  name: Johan Aparicio y Daniel Ariza Suarez
+date: "11/24/20"
+---
+
+---
+
+# Presentación 1
+
+<a href="sessions/sesion_1.pdf" download = "sesion_1"><img src="images/sesion_1.png"   class="center" width="70%" ></a>
+
+<a href="sessions/sesion_1.pdf" download="sesion_1"> Descargar Sesion 1 </a>
+
+# Información Adicional
+
+* [MrBean Aplicación Web.](https://beanteam.shinyapps.io/MrBean/)
+
+* [Respositorio Web](https://github.com/AparicioJohan/MrBeanApp)
+
+* [Página Web](Web MrBean: https:// mrpackages.netlify.app/mrbean.html)

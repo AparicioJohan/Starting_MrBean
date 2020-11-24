@@ -11,6 +11,10 @@ navbar:
         href: create_MrBean_shorcut.html
     - text: "Datos Ejemplo"
       href: Datos.html
+    - text: "Sesiones"
+      menu: 
+      - text: "Sesion 1"
+        href: session_1.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/AparicioJohan/Starting_MrBean
