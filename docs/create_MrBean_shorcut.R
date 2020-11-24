@@ -20,4 +20,4 @@ download.file(url = 'https://raw.githubusercontent.com/AparicioJohan/Starting_Mr
 
 shell( '.\\link.vbs .\\MrBean.lnk .\\MrBean.bat .\\icon.ico' )
 
-file.remove('link.vbs')
+file.remove(paste0(cdir, '/link.vbs'))
