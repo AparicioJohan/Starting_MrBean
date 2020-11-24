@@ -9,7 +9,7 @@ date: "11/24/20"
 
 # Presentación 1
 
-<a href="sessions/sesion_1.pdf" download = "sesion_1"><img src="images/sesion_1.png"   class="center" width="70%" ></a>
+<a href="https://youtu.be/3mb-D_DrnLc"><img src="images/sesion_1.png"   class="center" width="70%" ></a>
 
 <a href="sessions/sesion_1.pdf" download="sesion_1"> Descargar Sesion 1 </a>
 
