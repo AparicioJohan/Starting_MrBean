@@ -404,24 +404,27 @@ div.tocify {
 
 
 <hr />
-<div id="starting-with-mrbean" class="section level1">
-<h1>Starting with MrBean</h1>
+<div id="iniciando-con-mrbean" class="section level1">
+<h1>Iniciando con MrBean</h1>
 <div class="row">
 <div class="card">
 <p><a href="#" target="_blank"><img src="images/mrb.png"  class="center" width="60%" ></a></p>
 </div>
 </div>
-<div id="installation" class="section level2">
-<h2>Installation</h2>
-<p>You can install MrBean:</p>
+<div id="instalación" class="section level2">
+<h2>Instalación</h2>
+<p>Primero debes instalar la librería <code>devtools</code> o <code>remotes</code>, para esto debemos:</p>
+<pre class="r"><code>install.packages(&quot;devtools&quot;)      
+install.packages(&quot;remotes&quot;)</code></pre>
+<p>Posteriormente para instalar <code>MrBean</code> sigue uno de los siguientes comandos:</p>
 <pre class="r"><code>devtools::install_github(&quot;AparicioJohan/MrBeanApp&quot;)       
 remotes::install_github(&quot;AparicioJohan/MrBeanApp&quot;)   </code></pre>
-<p>or you can go to <a href="https://mrpackages.netlify.app/mrbean.html" class="uri">https://mrpackages.netlify.app/mrbean.html</a> and donwload it from there.</p>
+<p>También puedes ir a la página web <a href="https://mrpackages.netlify.app/mrbean.html" class="uri">https://mrpackages.netlify.app/mrbean.html</a> y descargar el paquete comprimido.</p>
 <pre class="r"><code>file &lt;- rstudioapi::selectFile()
 remotes::install_local(  file )</code></pre>
 </div>
-<div id="example" class="section level2">
-<h2>Example</h2>
+<div id="cargando-mrbean" class="section level2">
+<h2>Cargando <code>MrBean</code></h2>
 <pre class="r"><code>library(MrBean)
 run_app()</code></pre>
 <p><img src="images/people.PNG" width="35%" align="right"/></p>

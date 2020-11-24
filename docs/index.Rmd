@@ -8,7 +8,7 @@ output:
 
 ----
 
-# Starting with MrBean
+# Iniciando con MrBean
 
 <div class="row">
 <div class="card">
@@ -16,22 +16,29 @@ output:
 </div>
 </div>
 
-## Installation
+## Instalación
 
-You can install MrBean:
+Primero debes instalar la librería `devtools` o `remotes`, para esto debemos:
+
+``` r
+install.packages("devtools")      
+install.packages("remotes")
+```
+
+Posteriormente para instalar `MrBean` sigue uno de los siguientes comandos:
 
 ``` r
 devtools::install_github("AparicioJohan/MrBeanApp")       
 remotes::install_github("AparicioJohan/MrBeanApp")   
 ```
-or you can go to https://mrpackages.netlify.app/mrbean.html and donwload it from there.
+También puedes ir a la página web https://mrpackages.netlify.app/mrbean.html y descargar el paquete comprimido.
 
 ```r
 file <- rstudioapi::selectFile()
 remotes::install_local(  file )
 ```
 
-## Example
+## Cargando `MrBean`
 
 ``` r
 library(MrBean)
