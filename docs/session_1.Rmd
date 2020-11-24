@@ -19,4 +19,4 @@ date: "11/24/20"
 
 * [Respositorio Web](https://github.com/AparicioJohan/MrBeanApp)
 
-* [Página Web](Web MrBean: https:// mrpackages.netlify.app/mrbean.html)
+* [Página Web](https://mrpackages.netlify.app/mrbean.html)
