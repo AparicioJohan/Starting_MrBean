@@ -438,21 +438,10 @@ div.tocify {
 <h1>Después de instalar <code>MrBean</code>, puede crear un acceso directo para que sea más fácil iniciar el software.</h1>
 <p>Los siguientes pasos se deben llevar a cabo una única vez para crear un acceso directo a <code>MrBean</code>. Posteriormente, podrá acceder al software utilizando únicamente el acceso directo, como cualquier otro programa de escritorio.</p>
 <p>Por favor, abra la consola de R, copie, pegue y ejecute el siguiente comando:</p>
-<pre class="r"><code>writeLines( c(&quot;@echo off&quot;,
-              paste0(&#39;start /min &quot;Running MrBean&quot; &quot;&#39;,
-                     paste0(R.home(), &#39;/bin/Rscript&#39;),
-                     &#39;&quot; -e &quot;library(MrBean) ; run_app() ; quit(save = FALSE)&quot; &#39;)),
-            con = paste0( file.path(choose.dir(), &#39;/MrBean.bat&#39; ) ) )</code></pre>
+<pre class="r"><code>source(&#39;https://raw.githubusercontent.com/AparicioJohan/Starting_MrBean/main/docs/create_MrBean_shorcut.R&#39;)</code></pre>
 <p>Al ejecutarlo, se desplegará la siguiente ventana. En ella, debe seleccionar la carpeta en donde desea guardar el archivo ejecutable de <code>MrBean</code>.</p>
 <p><img src="images/choose_dir.png"  class="center" width="35%" ></p>
-<p>Posteriormente, el archivo “MrBean.bat” se habrá creado en la carpeta seleccionada. Este archivo ejecutable le dará acceso directo al programa <code>MrBean</code> al hacer doble click en él.</p>
-<p>Adicionalmente, puede llevar este acceso directo al escritorio de su computadora con Windows:</p>
-<p><img src="images/create_shortcut.png"  class="center" width="75%" ></p>
-<p>Finalmente puedes añadir el icono de <code>MrBean</code> a tu acceso directo para que identifiques mejor la app.</p>
-<p><a href="images/logo.png" download = "logo"><img src="images/logo.png"  width="10%" ></a></p>
-<blockquote>
-<p>Dar click sobre la imagen para descargar.</p>
-</blockquote>
+<p>Finalmente, ya podrá cerrar <code>R</code> y dirigirse directamente a la ruta que eligió en el paso anterior. Desde allí podrá dar doble click sobre el logo de <code>MrBean</code> el cuál, después de unos segundos, abrirá la app en el navegador.</p>
 </div>
 
 <footer role="contentinfo" id="site-footer">

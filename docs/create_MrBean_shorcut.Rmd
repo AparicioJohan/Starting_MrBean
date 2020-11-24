@@ -19,11 +19,7 @@ Posteriormente, podrá acceder al software utilizando únicamente el acceso dire
 Por favor, abra la consola de R, copie, pegue y ejecute el siguiente comando:
   
 ```{r eval=FALSE}
-writeLines( c("@echo off",
-              paste0('start /min "Running MrBean" "',
-                     paste0(R.home(), '/bin/Rscript'),
-                     '" -e "library(MrBean) ; run_app() ; quit(save = FALSE)" ')),
-            con = paste0( file.path(choose.dir(), '/MrBean.bat' ) ) )
+source('https://raw.githubusercontent.com/AparicioJohan/Starting_MrBean/main/docs/create_MrBean_shorcut.R')
 ```
 Al ejecutarlo, se desplegará la siguiente ventana. En ella, debe seleccionar la carpeta en donde desea guardar el archivo ejecutable de `MrBean`.
 
@@ -31,15 +27,4 @@ Al ejecutarlo, se desplegará la siguiente ventana. En ella, debe seleccionar la
 <img src="images/choose_dir.png"  class="center" width="35%" >
 
 
-Posteriormente, el archivo "MrBean.bat" se habrá creado en la carpeta seleccionada. Este archivo ejecutable le dará acceso directo al programa `MrBean` al hacer doble click en él.
-
-Adicionalmente, puede llevar este acceso directo al escritorio de su computadora con Windows:
-  
-<img src="images/create_shortcut.png"  class="center" width="75%" >
-
-
-Finalmente puedes añadir el icono de `MrBean` a tu acceso directo para que identifiques mejor la app.
-
-<a href="images/logo.png" download = "logo"><img src="images/logo.png"  width="10%" ></a>
-
-> Dar click sobre la imagen para descargar.
+Finalmente, ya podrá cerrar `R` y dirigirse directamente a la ruta que eligió en el paso anterior. Desde allí podrá dar doble click sobre el logo de `MrBean` el cuál, después de unos segundos, abrirá la app en el navegador.
