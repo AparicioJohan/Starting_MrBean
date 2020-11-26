@@ -20,10 +20,18 @@ output:
 
 Primero debes instalar la librería `devtools` o `remotes`, para esto debemos seguir los siguientes comandos:
 
-``` r
-install.packages("devtools")      
+
+<div class = "row"> <div class = "col-md-6">
+```r
+install.packages("devtools")   
+```
+</div> <div class = "col-md-6">
+```r
 install.packages("remotes")
 ```
+</div> </div>
+
+
 
 Posteriormente para instalar `MrBean` sigue uno de los siguientes comandos:
 
