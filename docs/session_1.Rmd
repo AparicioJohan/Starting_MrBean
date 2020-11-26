@@ -1,5 +1,5 @@
 ---
-title: "Sesion 1"
+title: "Sesión 1"
 author:
   name: Johan Aparicio y Daniel Ariza Suarez
 date: "11/24/20"
@@ -11,7 +11,7 @@ date: "11/24/20"
 
 <a href="https://youtu.be/3mb-D_DrnLc" target="_blank"><img src="images/sesion_1.png"   class="center" width="70%" ></a>
 
-<a href="sessions/sesion_1.pdf" download="sesion_1"> Descargar Sesion 1 </a>
+<a href="sessions/sesion_1.pdf" download="sesion_1"> Descargar Sesión 1 </a>
 
 # Información Adicional
 
@@ -21,7 +21,7 @@ date: "11/24/20"
 
 * [Página Web](https://mrpackages.netlify.app/mrbean.html)
 
-# Encuesta
+# Resultados Encuesta
 
 
 <div class="row">

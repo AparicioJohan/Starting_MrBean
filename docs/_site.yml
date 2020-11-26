@@ -13,7 +13,7 @@ navbar:
       href: Datos.html
     - text: "Sesiones"
       menu: 
-      - text: "Sesion 1"
+      - text: "Sesión 1"
         href: session_1.html
   right:
     - icon: fa-github fa-lg
