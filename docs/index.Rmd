@@ -18,7 +18,7 @@ output:
 
 ## Instalación
 
-Primero debes instalar la librería `devtools` o `remotes`, para esto debemos:
+Primero debes instalar la librería `devtools` o `remotes`, para esto debemos seguir los siguientes comandos:
 
 ``` r
 install.packages("devtools")      

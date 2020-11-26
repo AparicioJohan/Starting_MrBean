@@ -20,3 +20,29 @@ date: "11/24/20"
 * [Respositorio Web](https://github.com/AparicioJohan/MrBeanApp)
 
 * [Página Web](https://mrpackages.netlify.app/mrbean.html)
+
+# Encuesta
+
+
+<div class="row">
+  <div class="column">
+  <a href="images/survey/question1.jpg" target="_blank"><img id="myImg"  src="images/survey/question1.jpg" class="center" width="100%" ></a>
+  </div>
+  <div class="column">
+  <a href="images/survey/question2.jpg" target="_blank"><img id="myImg"  src="images/survey/question2.jpg"  class="center" width="100%" ></a>
+  </div>
+</div> 
+
+
+<div class="row">
+  <div class="column">
+  <a href="images/survey/question3.jpg" target="_blank"><img id="myImg"  src="images/survey/question3.jpg" class="center" width="100%" ></a>
+  </div>
+  <div class="column">
+  <a href="images/survey/results.jpg" target="_blank"><img id="myImg"  src="images/survey/results.jpg"  class="center" width="100%" ></a>
+  </div>
+</div> 
+
+
+
+
