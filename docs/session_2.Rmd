@@ -10,7 +10,7 @@ date: "12/1/2020"
 
 # Presentación 2
 
-<a href="https://youtu.be/3mb-D_DrnLc" target="_blank"><img src="images/sesion_2.png"   class="center" width="70%" ></a>
+<a href="https://youtu.be/6JVK3il0cpA" target="_blank"><img src="images/sesion_2.png"   class="center" width="70%" ></a>
 
 <a href="sessions/sesion_2.pdf" download="sesion_2"> Descargar Sesión 2 </a>
 
