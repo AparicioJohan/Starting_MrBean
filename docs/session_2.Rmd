@@ -1,0 +1,29 @@
+---
+title: "Sesión 2"
+author:
+  name: Johan Aparicio y Daniel Ariza Suarez
+date: "12/1/2020"
+---
+
+
+---
+
+# Presentación 2
+
+<a href="https://youtu.be/3mb-D_DrnLc" target="_blank"><img src="images/sesion_2.png"   class="center" width="70%" ></a>
+
+<a href="sessions/sesion_2.pdf" download="sesion_2"> Descargar Sesión 2 </a>
+
+# Resultados Encuesta
+
+
+<div class="row">
+  <div class="column">
+  <a href="images/survey2/question1.jpg" target="_blank"><img id="myImg"  src="images/survey2/question1.jpg" class="center" width="100%" ></a>
+  </div>
+  <div class="column">
+  <a href="images/survey2/question2.jpg" target="_blank"><img id="myImg"  src="images/survey2/question2.jpg"  class="center" width="100%" ></a>
+  </div>
+</div> 
+
+

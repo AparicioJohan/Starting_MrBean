@@ -15,6 +15,8 @@ navbar:
       menu: 
       - text: "Sesión 1"
         href: session_1.html
+      - text: "Sesión 2"
+        href: session_2.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/AparicioJohan/Starting_MrBean
