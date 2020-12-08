@@ -1,0 +1,39 @@
+---
+title: "Sesión 3"
+author:
+  name: Johan Aparicio y Daniel Ariza Suarez
+date: "12/8/2020"
+---
+  
+  
+---
+
+# Presentación 3
+
+<a href="https://youtu.be/6JVK3il0cpA" target="_blank"><img src="images/sesion_3.png"   class="center" width="70%" ></a>
+
+<a href="sessions/sesion_3.pdf" download="sesion_3"> Descargar Sesión 3 </a>
+
+# Resultados Encuesta
+
+
+<div class="row">
+<div class="column">
+<a href="images/survey3/question1.jpg" target="_blank"><img id="myImg"  src="images/survey3/question1.jpg" class="center" width="100%" ></a>
+</div>
+<div class="column">
+<a href="images/survey3/question2.jpg" target="_blank"><img id="myImg"  src="images/survey3/question2.jpg"  class="center" width="100%" ></a>
+</div>
+</div> 
+<div class="row">
+<div class="column">
+<a href="images/survey3/question3.jpg" target="_blank"><img id="myImg"  src="images/survey3/question3.jpg" class="center" width="100%" ></a>
+</div>
+<div class="column">
+<a href="images/survey3/results.jpg" target="_blank"><img id="myImg"  src="images/survey3/results.jpg"  class="center" width="100%" ></a>
+</div>
+</div> 
+  
+  
+
+  
