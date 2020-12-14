@@ -16,6 +16,7 @@ date: "12/8/2020"
 
 # Información Adicional
 
+* [https://ciat.shinyapps.io/MrBean/](https://ciat.shinyapps.io/MrBean/)
 * [¿Qué significa la normalidad?](https://doi.org/10.1111/jac.12220)
 * [Primer reporte MrBean](https://www.mdpi.com/1422-0067/21/9/3361/htm)
 

@@ -2,7 +2,7 @@
 title: "Análisis de datos utilizando MrBean"
 ---
 
-A continuación encontrará datos de ejemplo que servirán para introducir algunos diseños experimentales en agricultura. Los datos fueron tomados de materiales de cursos del Profesor [Dr. Hans-Peter Piepho](https://www.uni-hohenheim.de/organisation?tx_base_lsfcontentadmin%5BlsfPerson%5D=6257&L=1).
+A continuación encontrará datos de ejemplo que servirán para introducir algunos diseños experimentales en agricultura. Los datos (1 - 5) fueron tomados de materiales de cursos del Profesor [Dr. Hans-Peter Piepho](https://www.uni-hohenheim.de/organisation?tx_base_lsfcontentadmin%5BlsfPerson%5D=6257&L=1).
 
 <br>
 
@@ -58,5 +58,24 @@ A continuación encontrará datos de ejemplo que servirán para introducir algun
 </div>
 <a href="data/large_scale.csv" download="Darien"> Download Darien </a>
 
+### 7. Datos Simulados (Espacial con Checks)
+
+Datos simulados (heritability h2 = 0.4). Población de 382 individuos replicados dos veces, y dos controles replicados 18 veces.
+
+<a href="data/data_checks.csv" download="simulados"> Download Simulated </a>
+
+
+### 8. Múltiples-Experimentos
+
+Base de datos de rendimiento en ensayos australianos de trigo.
+
+<div class="row">
+<div class="card">
+<img src="images/trial_dist.png"  class="center" width="80%" >
+</div>
+</div>
+<a href="data/wheat_Australia_2008_2009.csv" download="wheat_Australia_2008_2009"> Download Wheat_Australia </a>
 
 <br>
+
+
