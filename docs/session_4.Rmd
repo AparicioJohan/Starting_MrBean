@@ -1,0 +1,28 @@
+---
+title: "Sesión 4"
+author:
+  name: Johan Aparicio y Daniel Ariza Suarez
+date: "12/15/2020"
+---
+
+---
+
+# Presentación 4
+
+<a href="https://youtu.be/o8aaF-BO9Kw" target="_blank"><img src="images/sesion_4.png"   class="center" width="70%" ></a>
+
+<a href="sessions/sesion_4.pdf" download="sesion_4"> Descargar Sesión 4 </a>
+
+# Resultados Encuesta
+
+
+<div class="row">
+  <div class="column">
+  <a href="images/survey4/question1.jpg" target="_blank"><img id="myImg"  src="images/survey4/question1.jpg" class="center" width="100%" ></a>
+  </div>
+  <div class="column">
+  <a href="images/survey4/question2.jpg" target="_blank"><img id="myImg"  src="images/survey4/question2.jpg"  class="center" width="100%" ></a>
+  </div>
+</div> 
+
+
